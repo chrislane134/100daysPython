@@ -12,6 +12,7 @@ total_bill = float(bill) * percentage_value
 
 split_by = input("How many people to split the bill?")
 split_total = total_bill / int(split_by)
-final_total = round(split_total, 2)
+final_total = (split_total, 2)
+final_total = "{:.2f}".format(split_total)
 
 print(f"Each person should pay: ${final_total}")
