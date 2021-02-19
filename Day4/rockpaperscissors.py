@@ -36,7 +36,7 @@ if user == 0:
     print(rock)
 elif user == 1:
     print(paper)
-else:
+elif user == 2:
     print(scissors)
 
 comp_choices = [rock, paper, scissors]
@@ -56,5 +56,7 @@ elif comp_final_choice == paper and user == 1:
     print("TIE GAME")
 elif comp_final_choice == scissors and user == 2:
     print("TIE GAME")
+elif user > 2:
+    print("INVALID CHOICE. You lose.")
 else:
     print("COMPUTER WINS!!!!!")
