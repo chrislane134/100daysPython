@@ -11,8 +11,8 @@ word_list = ["aardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
 
-user_input = input("Guess a letter: \n")
-guess = user_input.lower()
+guess = input("Guess a letter: \n").lower()
+
 
 for letter in chosen_word:
 
